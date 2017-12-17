@@ -59,3 +59,79 @@
 
 Horizontal Rule
 ---
+
+```
+Some text with an inline `code` snippet
+```
+
+Some text with an inline `code` snippet
+
+```
+**The quick brown [fox][1], jumped over the lazy [dog][2].**
+
+[1]: https://en.wikipedia.org/wiki/Fox "Wikipedia: Fox"
+[2]: https://en.wikipedia.org/wiki/Dog "Wikipedia: Dog"
+```
+
+**The quick brown [fox][1], jumped over the lazy [dog][2].**
+
+[1]: https://en.wikipedia.org/wiki/Fox "Wikipedia: Fox"
+[2]: https://en.wikipedia.org/wiki/Dog "Wikipedia: Dog"
+
+
+```
+\*literally\*
+```
+
+\*literally\*
+
+
+```
+<button class="button-save large">Big Fat Button</button>
+```
+
+<button class="button-save large">Big Fat Button</button>
+
+
+```
+\~\~deleted words\~\~
+```
+
+\~\~deleted words\~\~
+
+
+```
+==oooh fancy==
+```
+
+==oooh fancy==
+
+```
+The quick brown fox[^1] jumped over the lazy dog[^2].
+
+[^1]: Foxes are red
+[^2]: Dogs are usually not red
+```
+
+The quick brown fox[^1] jumped over the lazy dog[^2].
+
+[^1]: Foxes are red
+[^2]: Dogs are usually not red
+
+
+```language-javascript
+  const changeHandler = type => (valid, value) => {
+    onChange({
+      ...numbers,
+      [type]: value,
+    });
+  };
+```
+
+language-javascript
+  const changeHandler = type => (valid, value) => {
+    onChange({
+      ...numbers,
+      [type]: value,
+    });
+  };
